@@ -1,0 +1,49 @@
+.product {
+  height: 150px;
+}
+
+#search,
+form {
+  width: 100%;
+}
+
+.search__container {
+  position: relative;
+}
+
+.suggestions {
+  height: 0;
+  max-height: 0;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.suggestions ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.suggestions ul li {
+  padding: 5px 10px;
+}
+
+.visible {
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  height: auto;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  opacity: 1;
+}
+
+.suggested em {
+  font-weight: bold;
+}
+
+.do_you_mean {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
